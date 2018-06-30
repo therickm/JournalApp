@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "272797984294",
+    "firebase_url": "https://fir-b6474.firebaseio.com",
+    "project_id": "fir-b6474",
+    "storage_bucket": "fir-b6474.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272797984294:android:a1fc2a6d476c4540",
+        "android_client_info": {
+          "package_name": "com.example.therick.journalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272797984294-v5k92csouvva8nh6g0q27k3n4u6496bi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.therick.journalapp",
+            "certificate_hash": "005f661d0b170c59d647354c04db99724e8541ac"
+          }
+        },
+        {
+          "client_id": "272797984294-44koutjomd43pqocu1b1tno9gaehrf6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC32yfgRc0L7xfT1Hcsnh1fyF0u8kOJ0mg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272797984294-44koutjomd43pqocu1b1tno9gaehrf6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

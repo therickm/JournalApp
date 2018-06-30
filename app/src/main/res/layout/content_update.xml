@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="4dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:id="@+id/updateEntryView"
+                android:text="View"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                style="@style/FirebaseUI.TextInputEditText"
+                android:id="@+id/etUpdateEntry"
+                android:layout_height="100dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/updateBackHome"
+                    android:layout_width="wrap_content"
+                    android:text="Back"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    style="@style/FirebaseUI.Button"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/updateEntry"
+                    android:layout_width="wrap_content"
+                    style="@style/FirebaseUI.Button"
+                    android:text="Update"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>
